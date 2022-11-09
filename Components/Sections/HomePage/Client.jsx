@@ -6,15 +6,15 @@ function Client() {
       <div className="bg-light ">
         <div className="pt-44 max-w-screen-2xl m-auto">
           <div className="flex flex-col items-center space-y-8">
-            <h2 className="text-[3.8125rem] text-primary leading-[4.0625rem] font-super font-semibold">
+            <h2 className="text-2xl lg:text-[3.8125rem] text-primary leading-[4.0625rem] font-super font-semibold">
               ❤️ from our clients
             </h2>
             <div className="h-1 w-10 bg-lightbrown opacity-50 "></div>
           </div>
-          <div className="py-20  px-32 space-y-6 relative">
-            <div className="flex  space-x-6 max-w-6xl">
+          <div className="py-20  px-8 lg:px-32 space-y-6 relative">
+            <div className="lg:flex  space-x-6 max-w-6xl">
               <div className="w-full flex items-end justify-end relative">
-                <div className="absolute -right-20 border-[1px] border-white border-opacity-50px p-2 -bottom-20 w-fit h-fit justify-center rounded-full m-auto items-center">
+                <div className="hidden lg:block absolute -right-20 border-[1px] border-white border-opacity-50px p-2 -bottom-20 w-fit h-fit justify-center rounded-full m-auto items-center">
                   <div className="border border-white p-2 rounded-full border-opacity-60">
                     <div className="bg-white w-[5.5rem] h-[5.5rem] flex justify-center rounded-full items-center border border-white p-2">
                       <picture>
@@ -55,7 +55,7 @@ function Client() {
                 />
               </div>
             </div>
-            <div className="flex space-x-6 max-w-6xl">
+            <div className="lg:flex space-x-6 max-w-6xl">
               <div className=" w-full flex items-start justify-end ">
                 <ClientInfo
                   style={

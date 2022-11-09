@@ -4,9 +4,9 @@ function Footer() {
   return (
     <>
       <div className="bg-light">
-        <div className="max-w-screen-2xl py-16 mx-auto pl-52 pr-32 space-y-12">
-          <div className=" flex items-center justify-between">
-            <div className="flex items-center justify-between gap-x-14">
+        <div className="max-w-screen-2xl py-16 mx-auto lg:pl-52 lg:pr-32 space-y-12">
+          <div className=" flex flex-col space-y-4 lg:flex-row items-center justify-between">
+            <div className="flex flex-col space-y-3 lg:flex-row items-center justify-between gap-x-14">
               <picture>
                 <img
                   className="w-[80px]"
@@ -14,7 +14,7 @@ function Footer() {
                   alt="logo"
                 />
               </picture>
-              <div className="text-lightbrown font-super font-normal text-[.8125rem] flex  gap-x-10">
+              <div className="text-lightbrown font-super font-normal text-[.8125rem] flex flex-col space-y-2 lg:flex-row gap-x-10">
                 <Link href="#">About</Link>
                 <Link href="#">Services</Link>
                 <Link href="#">Work</Link>
@@ -23,7 +23,7 @@ function Footer() {
               </div>
             </div>
 
-            <div className="flex items-center justify-between gap-x-10">
+            <div className="flex space-y-2 flex-col lg:flex-row items-center justify-between gap-x-10">
               <div className="flex gap-1">
                 <picture>
                   <img
@@ -76,9 +76,9 @@ function Footer() {
               </div>
             </div>
           </div>
-          <div className="w-full h-[.125rem] opacity-40 bg-brown"></div>
-          <div className="flex items-center justify-between">
-            <div className="flex items-center gap-x-10">
+          <div className="mx-12 lg:w-full h-[.125rem] opacity-40 bg-brown"></div>
+          <div className="flex flex-col space-y-8 lg:flex-row items-center justify-between">
+            <div className=" px-10 grid grid-cols-2 gap-y-4 lg:flex items-center gap-x-10">
               <picture>
                 <img className="w-36" src="/assets/img/logo5.svg" alt="logo" />
               </picture>
@@ -90,7 +90,7 @@ function Footer() {
               </picture>
             </div>
 
-            <div className="flex items-center gap-x-12">
+            <div className="flex flex-col space-y-8  lg:flex-row items-center gap-x-12">
               <p className="text-primary font-super font-normal text-xs opacity-90">
                 Made with ❤️ in beautiful, sunny San Diego. ©2021
               </p>
