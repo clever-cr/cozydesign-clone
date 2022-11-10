@@ -1,0 +1,55 @@
+@import "fonts.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: fauc;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+  body {
+    color: white;
+    background: black;
+  }
+}
+
+.background {
+  background-color: #e4ded5;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(213, 173, 143, 0.3)),
+      to(rgba(213, 173, 143, 0.3))
+    ),
+    url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/607077c4d94a9d833a9cd183_stacked-waves-haikei.svg");
+  background-image: linear-gradient(
+      180deg,
+      rgba(213, 173, 143, 0.3),
+      rgba(213, 173, 143, 0.3)
+    ),
+    url("https://assets.website-files.com/5b60dd35a56ec7bab0703d2d/607077c4d94a9d833a9cd183_stacked-waves-haikei.svg");
+  background-position: 0 0, 0 0;
+  background-size: auto, cover;
+}
